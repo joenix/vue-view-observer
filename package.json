@@ -1,0 +1,17 @@
+{
+  "name": "vue-view-observer",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-view-observer"
+  ],
+  "author": "joenix",
+  "license": "MIT",
+  "dependencies": {
+    "view-observer": "^0.3.1"
+  }
+}
