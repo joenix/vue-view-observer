@@ -39,8 +39,8 @@ export default {
     // Node
     const $node = this.$refs["vue-view-observer"];
 
-    // Event
-    const { subscribe } = this.$listeners || new Function();
+    // Event Compatible with Vue3
+    const subscribe = (this.$listeners ? this.$listeners.subscribe : this.$attrs.onSubscribe) || new Function();
 
     // Observer
     const $io = this.observe($node);
